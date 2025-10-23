@@ -1,0 +1,25 @@
+{
+	"name": "gymcontrol",
+	"version": "1.0.0",
+	"type": "commonjs",
+	"description": "* RFs\r     [ ] Deve ser possivel se cadastrar\r     [ ] Deve ser possivel se autenticar\r     [ ] Deve ser possivel obter o perfil de um usuario logado\r     [ ] Deve ser possivel obter o numero de check-ins realizados pelo usuário logado\r     [ ] Deve ser possivel o usuario obter seu histórico de check-ins\r     [ ] Deve ser possivel o usuario buscar academias proximas\r     [ ] Deve ser possivel o usuario buscar academias pelo nome\r     [ ] Deve ser possivel o usuario realizar check-in em uma academia\r     [ ] Deve ser possivel validar o check-in de um usuario\r     [ ] Deve ser possivel cadastrar uma academia",
+	"main": "index.js",
+	"scripts": {
+		"start:dev": "tsx watch src/server.ts",
+		"start": "node build/server.js",
+		"build": "tsup src --out-dir build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "24.9.1",
+		"tsup": "8.5.0",
+		"tsx": "4.20.6",
+		"typescript": "5.9.3"
+	},
+	"dependencies": {
+		"fastify": "5.6.1"
+	}
+}
