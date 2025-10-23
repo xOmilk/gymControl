@@ -14,12 +14,12 @@
 
 - RNs
 
-    - [  ] O usuario não deve poder se cadastrar com um e-mail duplicado
-    - [  ] O usuario não pode fazer dois check-ins no mesmo dia
-    - [  ] O usuario não pode fazer check-in se nao estiver pelo menos 100m da academia
-    - [  ] O check-in só pode ser validado até 20 minutos após criado
-    - [  ] O check-in só pode ser validado por administradores
-    - [  ] A academia só pode ser cadastrada por administradores
+    - [ ] O usuario não deve poder se cadastrar com um e-mail duplicado
+    - [ ] O usuario não pode fazer dois check-ins no mesmo dia
+    - [ ] O usuario não pode fazer check-in se nao estiver pelo menos 100m da academia
+    - [ ] O check-in só pode ser validado até 20 minutos após criado
+    - [ ] O check-in só pode ser validado por administradores
+    - [ ] A academia só pode ser cadastrada por administradores
 
 
 - RNFs
